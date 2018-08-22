@@ -1,7 +1,7 @@
 package test.nets.a2;
 
 /**
- * @author Varesh
+ * @author 
  *
  * NO MODIFICATIONS TO BE DONE IN THIS CLASS
  */
