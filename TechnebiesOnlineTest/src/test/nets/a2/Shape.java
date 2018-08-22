@@ -1,7 +1,7 @@
 package test.nets.a2;
 
 /**
- * @author Varesh
+ * @author 
  *
  */
 public enum Shape {
