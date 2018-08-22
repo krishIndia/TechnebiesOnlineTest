@@ -1,0 +1,47 @@
+Requirement
+
+Currently the output of the LaserTest is as follows:
+#############################
+Move To :[10,10]
+Bean On
+Move To :[10,20]
+Bean Off
+Bean On
+Move To :[20,20]
+Bean Off
+Bean On
+Move To :[20,10]
+Bean Off
+Bean On
+Move To :[10,10]
+Bean Off
+Move To :[10,15]
+Bean On
+Move To :[10,10]
+Bean Off
+Move To :[0,0]
+#############################
+
+On every call to lineTo method, the bean is turning on and turning off. 
+Your job is to make sure that the bean is not turned on and off everytime lineTo method is called.
+The desired output of the test should be:
+
+#############################
+Move To :[10,10]
+Bean On
+Move To :[10,20]
+Move To :[20,20]
+Move To :[20,10]
+Move To :[10,10]
+Bean Off
+Move To :[10,15]
+Bean On
+Move To :[10,10]
+Bean Off
+Move To :[0,0]
+#############################
+
+Suggestions::: (Not part of the original problem)
+- Laser should be on while drawing a line to a location.
+- Laser should be off while moving to a location.
+- Reset should turn off the laser in case already on.

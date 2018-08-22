@@ -1,0 +1,47 @@
+DRINKING GAME
+
+This puzzle is the implementation of a Drinking game.
+
+There are 2 tasks for this, (Total time given is 45 min.)
+It gives you a complete idea of what the complete task is about.
+
+Total time for this task is 45 min.
+
+Drinking game is a game where each contestant rolls the dice twice. 
+The maximum number formed by these two digits (1 to 6) is considered his score.
+
+If his score is greater than the previous throw, he wins. 
+If the two digits of his dice numbers are same, he wins.
+If his score is less than or equal to the previous score, he losses.
+
+Illustration
+Jonny - 2,3 - Value 32
+Ronny - 4,1 - Value 41 > 32	- Wins
+Harry - 1,1 - Same 			- Wins
+Jonny - 3,5 - Value 53>11 	- Wins
+Ronny - 2,4 - value 42<53 	- Losses
+
+Your Job is to implement the playNextMove() method in the DrinkingGame class.
+You are not supposed to modify the contestant class for this task.
+
+
+Task2 :
+You need to implement the drinking game part of the puzzle.
+
+Each contestant when LOSES drinks a glass of alcohol.
+Only 10% of 1 unit of alcohol is present in a glass of alcohol.
+
+A contestant is considered drunk
+
+if
+(number of units) * 12.8
+-----------------------    >1         
+(weight in Kgs) * .68
+
+
+You need to implement the Contestant class drink related methods and test it via ContestantTestClass.
+
+Also, you need to implement the two methods of WhoGetsDrunkFirst class.
+This can be tested via the WhoGetsDrunkFirstTestCase class.
+
+You should try to complete the complete test in 45 min.

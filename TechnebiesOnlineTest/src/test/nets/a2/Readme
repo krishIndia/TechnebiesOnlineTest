@@ -1,0 +1,8 @@
+This test is to judge your skills in re-fractoring.
+The code is working but it needs to be more extensible and with proper comments.
+
+You will have 30 min to solve this test.
+
+Your job is not to break the code but make it more testable and extensible and with proper comments.
+
+Note: You should not modify the Shape class. 
